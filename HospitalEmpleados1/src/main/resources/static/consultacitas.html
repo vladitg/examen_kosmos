@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+   
+<title>Alta cita medica</title>
+    
+   
+<style>
+       
+
+        /* Add your CSS styling here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #007bff;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-label {
+            display: block;
+            font-weight: bold;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        .form-button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Consulta Citas</h1>
+        <form>
+			
+			
+
+<div class="form-group">
+
+               
+<label class="form-label" for="doctor">Doctor:</label>
+                
+
+<select id="doctor" class="form-input" required>
+                    
+
+<option value="">Selecciona Doctor</option>
+                    
+                   
+<option value="Dr. John Smith">Dr. John Smith</option>
+                    <option value="Dr. Jane Doe">Dr. Jane Doe</option>
+                    
+                   
+<option value="Dr. Michael Johnson">Dr. Michael Johnson</option>
+                </select>
+            </div>
+            <div class="form-group">
+				
+				
+<label class="form-label" for="appointment-date">Fecha Consultas:</label>
+<input type="date" id="fechaconsulta" class="form-input" required>				
+							
+
+
+<h3>Citas</h3>
+
+<div class="form-group">
+                
+               
+<label class="form-label" for="patient-name">Consultorio:</label>
+                
+               
+<input type="text" id="consultorio" class="form-input" required>
+            
+           
+</div>
+<div class="form-group">
+                
+               
+<label class="form-label" for="patient-name">Horario de consulta:</label>
+                
+               
+<input type="text" id="horarioconsulta" class="form-input" required>
+            
+           
+</div>
+<div class="form-group">
+                
+               
+<label class="form-label" for="patient-name">Nombre del paciente:</label>
+                
+               
+<input type="text" id="nombrepaciente" class="form-input" required>
+            
+           
+</div>
+             
+           
+<button type="submit" class="form-button">Submit</button>
+        
+       
+</form>
+    
+   
+</div>
+
+
+
+</html>
